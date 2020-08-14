@@ -5,10 +5,20 @@ It include a task that explains RSA algorithm and tries to decipher the plain te
 <p>There are steps to create Public key and private key which is used for encryption and decryption </p>
 <ol>
   <li>Take two prime number 'p' and 'q' ,such that they are very large prime numbers.</li>
-  <li>Find 'n' using n=p*q</li>
-  <li>Now find phi(n)=(p-1)*(q-1)</li>
-  <li>Select 'e' such that 'e' is a co-prime to phi(n)</li>
-  <li>Calculate 'd' such that e*d*mod(phi(n))=1</li>
+  <li>Find 'n' using n=p*q .</li>
+  <li>Now find phi(n)=(p-1)*(q-1) .</li>
+  <li>Select 'e' such that 'e' is a co-prime to phi(n) .</li>
+  <li>Calculate 'd' such that e*d*mod(phi(n))=1 .</li>
+  <li>
+    <ul>
+      <li>Public key : (e,n)</li>
+      <li>Private key : (d,n)</li>
+    </ul>
+  </li>
 </ol>
+<p><strong>Note : </strong> 'd' is find using <a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">Extended Eucledian Algorihm</a></p>
+</h>
+<h3>Now in the given question we have the Cipher text(C), and the public key(e,n)</h3>
+  
 
 
