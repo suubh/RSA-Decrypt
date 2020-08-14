@@ -19,15 +19,18 @@ It include a task that explains RSA algorithm and tries to decipher the plain te
 <p><strong>Note : </strong> 'd' is find using <a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">Extended Eucledian Algorihm.</a></p>
 </hr>
 <h2>Now in the given question we have the Cipher text(C), and the public key(e,n)</h2>
-<p>Our first step will be to find <strong>'p'</strong> and <strong>'q'</strong> using given <strong>'n'</strong> ,because we know that n=p*q and it can be factored.For finding <strong>'p'</strong> and <strong>'q'</strong> we use online services.<a href="https://www.alpertron.com.ar/ECM.HTM">Click here to find yours.</a></p><br>
+<ul>
+  
+  <li><p>Our first step will be to find <strong>'p'</strong> and <strong>'q'</strong> using given <strong>'n'</strong> ,because we know that n=p*q and it can be factored.For finding <strong>'p'</strong> and <strong>'q'</strong> we use online services.<a href="https://www.alpertron.com.ar/ECM.HTM">Click here to find yours.</a></p><br></li>
 <img src="https://suubh.github.io/RSA-Decrypt/Images/IMG_20200814_141902.png">
-<p>After finding <strong>'p'</strong> and <strong>'q'</strong> we need to find <strong>'d'</strong> . Using <strong>'p'</strong>,<strong>'q'</strong> and <strong>'e'</strong> we cannot perform the steps manually so we will use any online services to find <strong>'d'</strong>. <a href="https://www.cryptool.org/en/cto-highlights/rsa-step-by-step" >Click here to find yours.</a></p><br>
+  <li><p>After finding <strong>'p'</strong> and <strong>'q'</strong> we need to find <strong>'d'</strong> . Using <strong>'p'</strong>,<strong>'q'</strong> and <strong>'e'</strong> we cannot perform the steps manually so we will use any online services to find <strong>'d'</strong>. <a href="https://www.cryptool.org/en/cto-highlights/rsa-step-by-step" >Click here to find yours.</a></p><br></li>
 <img src="https://suubh.github.io/RSA-Decrypt/Images/IMG_20200814_142043.png">
 <img src="https://suubh.github.io/RSA-Decrypt/Images/IMG_20200814_142112.png">
 
 
-<p>After getting the value for <strong>'d'</strong> and finding the Plain text using the above steps.Now it depends on how Plain text was created. For the above problem the message is stored in the hex of the plain text. For finding the hex of Plain text.<a href="https://codebeautify.org/hex-string-converter">Visit</a></p><br>
+   <li><p>After getting the value for <strong>'d'</strong> and finding the Plain text using the above steps.Now it depends on how Plain text was created. For the above problem the message is stored in the hex of the plain text. For finding the hex of Plain text.<a href="https://codebeautify.org/hex-string-converter">Visit</a></p><br></li>
 <img src="https://suubh.github.io/RSA-Decrypt/Images/IMG_20200814_142005.png">
+</ul>
 
 
   
