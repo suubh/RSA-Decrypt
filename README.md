@@ -19,6 +19,7 @@ It include a task that explains RSA algorithm and tries to decipher the plain te
 <p><strong>Note : </strong> 'd' is find using <a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">Extended Eucledian Algorihm</a></p>
 </h>
 <h3>Now in the given question we have the Cipher text(C), and the public key(e,n)</h3>
+<p>Our first step will be to find <strong>'p'</strong> and <strong>'q'</strong> using given <strong>'n'</strong> ,because we know that n=p*q and it can be factored.For finding <strong>'p'</strong> and <strong>'q'</strong> we use online services.<a href="https://www.alpertron.com.ar/ECM.HTM">Click here to find yours</a></p>
   
 
 
