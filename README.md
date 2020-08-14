@@ -17,9 +17,10 @@ It include a task that explains RSA algorithm and tries to decipher the plain te
   </li>
 </ol>
 <p><strong>Note : </strong> 'd' is find using <a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">Extended Eucledian Algorihm.</a></p>
-</h>
+</hr>
 <h2>Now in the given question we have the Cipher text(C), and the public key(e,n)</h2>
-<p>Our first step will be to find <strong>'p'</strong> and <strong>'q'</strong> using given <strong>'n'</strong> ,because we know that n=p*q and it can be factored.For finding <strong>'p'</strong> and <strong>'q'</strong> we use online services.<a href="https://www.alpertron.com.ar/ECM.HTM">Click here to find yours</a></p>
+<p>Our first step will be to find <strong>'p'</strong> and <strong>'q'</strong> using given <strong>'n'</strong> ,because we know that n=p*q and it can be factored.For finding <strong>'p'</strong> and <strong>'q'</strong> we use online services.<a href="https://www.alpertron.com.ar/ECM.HTM">Click here to find yours.</a></p><br>
+<p>After finding <strong>'p'</strong> and <strong>'q'</strong> we need to find <strong>'d'</strong> . Using <strong>'p'</strong>,<strong>'q'</strong> and <strong>'e'</strong> we cannot perform the steps manually so we will use any online services to find <strong>'d'</strong>. <a href="https://www.cryptool.org/en/cto-highlights/rsa-step-by-step" >Click here to find yours.</a></p><br>
   
 
 
