@@ -1,7 +1,7 @@
 <p align="center">
 <img width="700" height="300" src="https://github.com/suubh/RSA-Decrypt/blob/master/Images/RSA_Algorithm_changed_facebookp.png" >
 </p>
-# RSA-Decrypt
+
 It include a task that explains RSA algorithm and tries to decipher the plain text using some online services for mathematical calculations.
 <h2>First try the question yourself using the below instructions and resources for RSA Algorithm</h2>
 <p><strong>RSA algorithm</strong> is use to encrypt and decrypt messages and also used for Key exchange. </p><br>
